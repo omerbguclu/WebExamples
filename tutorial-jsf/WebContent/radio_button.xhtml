@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">	
+<h:head>
+<title>Student Registration</title>
+</h:head>
+<body>
+	<h:form>
+		First Name:<h:inputText id="firstName" value="#{firstManagedBean.firstName}" a:placeholder="First name..." />
+		<br></br>
+		Last Name:<h:inputText id="lastName" value="#{firstManagedBean.lastName}" a:placeholder="Last name..." />
+		<br></br>
+		Country:<h:selectOneRadio value="#{radioButton.language}">
+			<f:selectItems value="#{radioButton.languageList}"/>	
+		</h:selectOneRadio>	
+		<h:commandButton value="Submit" action="radio_button_response" />				
+	</h:form>
+</body>
+</html>
