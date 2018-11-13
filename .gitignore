@@ -56,3 +56,5 @@ desktop.ini
 /*/*.db
 */.db
 */*.db
+/.metadata/
+/.recommenders/
