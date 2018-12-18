@@ -58,3 +58,22 @@ desktop.ini
 */*.db
 /.metadata/
 /.recommenders/
+
+
+# Annotation Processing
+.apt_generated/
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# CDT- autotools
+.autotools
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# External tool builders
+.externalToolBuilders/
